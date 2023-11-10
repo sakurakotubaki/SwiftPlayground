@@ -27,11 +27,6 @@ func function3() -> String {
 
 function3()
 
-// 引数と戻り値がある関数
-func function4(name: String) -> String {
-    return "Hello \(name)"
-}
-
 // クロージャーを定義する
 // { (引数名: 型名) -> 戻り値の型名 in
 //     処理

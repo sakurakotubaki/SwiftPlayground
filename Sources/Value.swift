@@ -54,3 +54,6 @@ let set1: Set<Int> = [1, 2, 3]
 
 // Optional型
 let optional1: Int? = nil
+
+// データの型を確認するには、type(of:)関数を使う
+type(of: int1)
